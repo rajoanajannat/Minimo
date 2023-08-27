@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    /* background-color: red; */
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{}
+
+nav{
+    width: 50%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{}
+
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner{
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+.photodiary{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.photodiary h5{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.photodiary h1{
+    color: #626262;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.photodiary p{
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+.photodiary h6{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.feature_section{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 48%;
+    margin-bottom: 60px;
+}
+
+.item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item h5{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.item h1{
+    color: #626262;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.item p{
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: 'Playfair Display', serif;
+}
+
+.signup_section{
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+.form{
+    width: 28%;
+    margin: auto;
+}
+
+.form h1{
+    color: #626262;
+    font-size: 26px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding-bottom: 5px;
+    
+}
+
+.form input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 4px;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.icon img{}
+
+.second{
+    padding: 100px 0;
+
+}
+
+.second_feature{
+    margin-bottom: 0;
+}
+
+.loadmore{
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.loadmore button{
+    padding: 15px 25px;
+    color: #626262;
+    background: transparent;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 50px 0;
+    background: #f0f0f0;
+}
+
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms{}
+
+.terms ul{
+    list-style: none;
+    display: flex;
+}
+
+.terms ul li{
+    margin-right: 20px;
+}
+
+.terms ul li a{
+    text-transform: capitalize;
+    color: #626262;
+    text-decoration: none;
+}
+
+.social_icon{}
+
+.social_icon ul{
+    display: flex;
+    list-style: none;
+}
+
+.social_icon ul li{
+    text-decoration: none;
+}
+
+.social_icon ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #626262
+}
